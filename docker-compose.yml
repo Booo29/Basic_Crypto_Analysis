@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  crypto_analyzer:
+    build: .
+    container_name: crypto_analyzer
+    image: crypto_analyzer_image
+    volumes:
+      - .:/app
+    command: ["python", "crypto_analysis.py"]

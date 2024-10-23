@@ -1,0 +1,1 @@
+*/10 * * * * python /app/crypto_analysis.py >> /var/log/crypto_analysis.log 2>&1
